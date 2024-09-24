@@ -1,0 +1,285 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container1 {
+  width: 100vw;
+  background-image: url("1image.png");
+  background-size: cover;
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav img {
+  margin-left: 4vw;
+  margin-top: 1vw;
+}
+
+nav ul {
+  display: flex;
+  margin-right: 4vw;
+  gap: 6vw;
+  align-items: center;
+  list-style-type: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+label {
+  color: white;
+}
+select {
+  color: black;
+}
+
+nav button {
+  background-color: #00d38c;
+  width: 10vw;
+  height: 4vw;
+  font-size: 100%;
+  border: none;
+  border-radius: 2vw;
+}
+
+ button:hover{
+    transition: all 1s ease-in-out;
+    color: white;
+}
+
+nav a:hover {
+  color: #00d38c;
+  transition: all 0.5s ease-in-out;
+  font-size: 150%;
+}
+
+nav label:hover {
+  color: #00d38c;
+}
+
+main p.ourserviceareas:hover{
+    font-size: 150%;
+}
+
+p.capitalheading {
+  color: #00d38c;
+  font: 14px Barlow, sans-serif;
+  margin-left: 3vw;
+  margin-top: 6vw;
+  font-size: 100%;
+  font-weight: bold;
+}
+
+p:hover {
+  transition: all 0.5s ease-in-out;
+  font-size: 28px;
+}
+
+strong.strong1 {
+  color: white;
+  font: 44px Barlow, sans-serif;
+  font-weight: bold;
+  line-height: 1;
+  display: block;
+  margin-left: 3vw;
+  margin-top: 1vw;
+  margin-right: 35vw;
+}
+strong.strong2 {
+  color: white;
+  font: 18px Barlow, sans-serif;
+  font-weight: bold;
+  line-height: 1;
+  display: block;
+  margin-left: 3vw;
+  margin-top: 1vw;
+  margin-right: 65vw;
+}
+
+button.button2 {
+  background-color: #00d38c;
+  width: 10vw;
+  height: 4vw;
+  font-size: 100%;
+  border: none;
+  border-radius: 2vw;
+  margin-top: 3vw;
+  margin-left: 2vw;
+  margin-bottom: 2vw;
+}
+
+button.button3 {
+  background-color: #00d38c;
+  width: 45px;
+  height: 45px;
+  font-size: 100%;
+  border: none;
+  border-radius: 1000px;
+  font-size: 120%;
+
+  padding-top: 0.5vw;
+  position: fixed;
+  top: auto;
+  bottom: 5px;
+  left: auto;
+  right: 25px;
+}
+
+button a {
+  text-decoration: none;
+}
+
+.container2{
+    background-color: #001632;
+    width: 100vw;
+}
+
+p.ourserviceareas{
+    color: #00d38c;
+    font: 14px Barlow, sans-serif;
+    margin-left: 3vw;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+main{
+    padding-top:4vw;
+}
+
+strong.strong3{
+    font: 65px Barlow, sans-serif;
+    color: white;
+    font-weight: bold;
+    line-height: 1;
+    display: block;
+    margin-left: 3vw;
+    padding-right: 40vw;
+    padding-top: 3vw;
+    
+}
+
+p.para1{
+    font:18px Barlow, sans-serif ;
+    color: #FFFFFF85;
+   margin-left: 3vw;
+   margin-top: 2vw;
+   padding-right: 50vw;
+}
+
+.container3{
+    background-color:#001632 ;
+}
+
+.card1{
+    background-color: white;
+}
+
+.card1 img{
+    width: 300px;
+    height: 200px;
+}
+strong.strong4{
+    color: #2E3642;
+    font: 28px Barlow, sans-serif;
+    padding-left: 3vw;
+    padding-top: 3vw;
+   
+}
+
+p.para2{
+    color: #546681;
+    font: 18px Barlow, sans-serif;
+    padding-left: 2vw;
+  padding-top: 3vw;
+  padding-right: 5vw;
+  padding-bottom: 3vw;
+}
+
+div.card1{
+    display: flex;
+    flex-direction: column;
+  
+   margin-left: 2vw;
+    width: 300px;
+    
+}
+
+section.section1{
+    padding-top: 4vw;
+    padding-right: 3vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container4{
+    background-color:#001632 ;
+}
+
+h2.heading2{
+    color: white;
+    font: 45px Barlow, sans-serif;
+    padding-top: 4vw;
+    padding-left: 5vw;
+}
+
+div.items{
+    color: #00d38c;
+    margin-left: 15vw;
+    font: 28px Barlow, sans-serif;
+   
+}
+
+section.section2{
+    margin-top: 5vw;
+    margin-left: 5vw;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    row-gap: 5vw;
+    column-gap: 1vw;
+}
+   
+#section3{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 6vw;
+}
+
+footer.footer{
+    background-color: #001632;
+}
+section li,a{
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0.7vw;
+}
+
+h3{
+    color: white;
+    padding-left: 35vw;
+    padding-top: 2vw;
+    color: grey;
+}
+
+h2{
+    color: white;
+    padding-bottom: 1vw;
+}
+
+div.card1:hover{
+   transition: all 1s ease-in-out;
+   background-color: #00d38c;
+   transform: scale(1.1);
+}
+
+
